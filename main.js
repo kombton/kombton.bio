@@ -1,0 +1,1 @@
+document.querySelector('audio').volume = 0.3;
