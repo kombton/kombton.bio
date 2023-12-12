@@ -11,3 +11,32 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+  filter: blur(20px) brightness(80%);
+}
+
+.social-buttons {
+  position: fixed;
+  bottom: 69px;
+  left: 80px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-button img {
+  width: 69px; /* Adjust the size as needed */
+  height: 69px;
+  border-radius: 50%;
+}
