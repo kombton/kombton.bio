@@ -1,16 +1,18 @@
 #bg-video {
-    pointer-events: none;
-  }
-  
-  <style>
-  h1 {
-    color: #000000; /* Set the text color to black */
-    opacity: 0.5; /* Set the opacity to 50% */
-    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  pointer-events: none;
+}
+
+h1 {
+  position: absolute;
+  color: #ffffff;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  top: 50px;
+  left: 50px;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 500%;
+  user-select: none;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -39,4 +41,14 @@ video {
   width: 69px; /* Adjust the size as needed */
   height: 69px;
   border-radius: 50%;
+}
+
+#clickMessage {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
 }
