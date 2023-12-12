@@ -2,15 +2,4 @@ body {
     background: #262626;
     color: white;
     cursor: url(assets/cursor.png), auto;
-  }
-  
-  h1 {
-    position: absolute;
-    color: #ffffff;
-    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-    top: 50px;
-    left: 50px;
-    font-family: "Roboto Mono", sans-serif;
-    font-size: 500%;
-  }
-  
+  } 
